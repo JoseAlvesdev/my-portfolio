@@ -1,0 +1,17 @@
+.c-button {
+  background-color: var(--primary-color);
+  color: var(--neutral-black-color);
+  padding: .75rem 1rem;
+  border-radius: .25rem;
+  border: .063rem solid var(--primary-color);
+  width: fit-content;
+}
+
+.c-secondary-button {
+  background-color: transparent;
+  color: var(--primary-color);
+  padding: .75rem 1rem;
+  border-radius: .25rem;
+  border: .063rem solid var(--primary-color);
+  width: fit-content;
+}

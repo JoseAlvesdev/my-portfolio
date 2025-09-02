@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 6.125rem;
+  font-weight: 300;
+  letter-spacing: -.094rem;
+  line-height: calc(6.125rem + .625rem);
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.813rem;
+  font-weight: 300;
+  letter-spacing: -.031rem;
+  line-height: calc(3.813rem + .625rem);
+}
+
+h3 {
+  font-size: 3.063rem;
+  font-weight: 400;
+  line-height: calc(3.063rem + .625rem);
+}
+
+h4 {
+  font-size: 2.188rem;
+  font-weight: 400;
+  letter-spacing: 0.016rem;
+  line-height: calc(2.188rem + .625rem);
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: calc(1.5rem + .625rem);
+}
+
+h6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: calc(1.25rem + .625rem);
+}

@@ -1,0 +1,12 @@
+.c-icon {
+  padding: .5rem;
+  display: block;
+}
+
+.c-icon__img {
+  height: 1.5rem;
+}
+
+.c-icon__img--short-hg {
+  height: 1.313rem;
+}

@@ -1,0 +1,18 @@
+:root {
+  /* Primary Colors */
+  --color-below-primary: #009999;
+  --primary-color: #00CCCC;
+  --color-above-primary: #00FFFF;
+
+  /* Secondary Colors */
+  --secondary-color: #004BCC;
+
+  /* Neutral Colors */
+  --neutral-black-color: #0A0A0A;
+  --neutral-gray-color-below-2x: #181A1A;
+  --color-neutral-below-gray: #494D4D;
+  --color-neutral-gray: #7A8080;
+  --color-neutral-above-gray: #ABB2B2;
+  --color-neutral-above-gray-2x: #DCE5E5;
+  --neutral-white-color: #FFFFFF;
+}

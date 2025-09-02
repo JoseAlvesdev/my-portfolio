@@ -1,0 +1,15 @@
+.o-center-vertical {
+  align-items: center;
+}
+
+.o-upper {
+  text-transform: uppercase;
+}
+
+.o-txt-bold {
+  font-weight: 900;
+}
+
+.o-justify-end-gd {
+  justify-items: end;
+}

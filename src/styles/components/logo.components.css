@@ -1,0 +1,10 @@
+.c-logo {
+  display: block;
+  max-width: fit-content;
+  padding: .5rem;
+  padding-left: 0;
+}
+
+.c-logo__text {
+  font-weight: 900;
+}

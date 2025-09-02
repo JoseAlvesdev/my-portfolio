@@ -1,0 +1,19 @@
+.c-footer {
+  padding: 48px 0 56px;
+  background-color: var(--neutral-gray-color-below-2x);
+}
+
+.c-footer__content {
+  gap: 3rem;
+  justify-content: center;
+}
+
+.c-footer__links {
+  gap: 1rem;
+  justify-content: center;
+}
+
+.c-footer__copy {
+  margin-top: 72px;
+  text-align: center;
+}

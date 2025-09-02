@@ -1,0 +1,27 @@
+.o-subtitle-1 {
+  letter-spacing: .094rem;
+}
+
+.o-txt-button {
+  font-size: .875rem;
+  font-weight: 500;
+  letter-spacing: .078rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.o-txt-body-1 {
+  font-size: 1rem;
+  letter-spacing: .031rem;
+  line-height: calc(1rem * 1.5);
+}
+
+.o-txt-body-2 {
+  font-size: .875rem;
+  letter-spacing: .016rem;
+}
+
+.o-txt-caption {
+  font-size: .75rem;
+  letter-spacing: .025rem;
+}

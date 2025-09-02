@@ -1,0 +1,14 @@
+.c-about {
+  margin-bottom: 15rem;
+}
+
+.c-about__content {
+  align-items: center;
+  gap: 50px;
+}
+
+.c-about__text {
+  margin-bottom: 1rem;
+  text-indent: 60px;
+  color: var(--color-neutral-above-gray)
+}

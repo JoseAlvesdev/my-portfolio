@@ -1,0 +1,32 @@
+.c-header {
+  padding: 1.25rem 1.5rem 0;
+}
+
+.c-header__content {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-header__link {
+  padding: .5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.c-header__link::after {
+  content: '';
+  height: 6px;
+  width: 6px;
+  margin: .188rem 0 .188rem 1rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--neutral-white-color);
+}
+
+.c-header__link--no-after::after {
+  content: none;
+}
+
+.c-header__link--no-pad-r {
+  padding-right: 0;
+}

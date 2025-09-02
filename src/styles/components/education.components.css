@@ -1,0 +1,45 @@
+.c-education {
+  margin-bottom: 15rem;
+}
+
+.c-education__content {
+  display: grid;
+  justify-content: center;
+}
+
+.c-education__course {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+  height: 8.75rem;
+}
+
+.c-education__elipse {
+  display: inline-block;
+  width: .813rem;
+  height: .813rem;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.c-education__line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--primary-color);
+  transform: translate(6px, -7px);
+}
+
+.c-education__institution {
+  color: var(--color-neutral-above-gray);
+  margin-bottom: .875rem;
+  width: fit-content;
+}
+
+.c-education__institution--right-text {
+  text-align: right;
+}
+
+.c-education__period {
+  color: var(--color-neutral-above-gray-2x);
+}

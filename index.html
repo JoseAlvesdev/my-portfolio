@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/src/styles/index.css">
+</head>
+<body>
+  <header id="header" class="c-header">
+    <div class="c-header__content o-flex-container">
+      <a class="c-logo" href="#">
+        <h5 class="c-logo__text">
+          JOSÉALVES
+        </h5>
+      </a>
+      <nav>
+        <ul class="o-flex-container">
+          <li><a class="c-header__link o-txt-body-1" href="#header">Home</a></li>
+          <li><a class="c-header__link o-txt-body-1" href="#about">Sobre</a></li>
+          <li><a class="c-header__link o-txt-body-1" href="#education">Educação</a></li>
+          <li><a class="c-header__link o-txt-body-1" href="#projects">Projetos</a></li>
+          <li><a class="c-header__link c-header__link--no-after c-header__link--no-pad-r o-txt-body-1" href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="c-hero o-flex-container">
+    <div class="o-container">
+      <div class="c-hero__content o-flex-container">
+        <div class="c-hero__left o-flex-container">
+          <div>
+            <p class="o-subtitle-1">
+              Olá, eu sou
+            </p>
+            <h3 class="c-hero__title">
+              JOSÉ ALVES
+            </h3>
+            <p class="o-subtitle-1 o-upper">
+              Desenvolvedor de Software
+            </p>
+          </div>
+          <a class="c-button o-txt-button o-upper" href="#">
+            Saiba Mais
+          </a>
+          <div class="o-flex-container o-center-vertical">
+            <a href="#">
+              <span class="c-icon">
+                <img class="c-icon__img" src="/src/assets/icons/github-icon.svg" alt="LinkedIn">
+              </span>
+            </a>
+            <a href="#">
+              <span class="c-icon">
+                <img class="c-icon__img" src="/src/assets/icons/linkedin-icon.svg" alt="LinkedIn">
+              </span>
+            </a>
+            <a href="#">
+              <span class="c-icon">
+                <img class="c-icon__img c-icon__img--short-hg" src="/src/assets/icons/email-icon.svg" alt="LinkedIn">
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="c-hero__right">
+          <div class="c-hero__code-snippet o-flex-container">
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">1 |</p>
+              <p class="o-subtitle-1">class <span class="o-txt-bold">Person</span> {</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">2 |</p>
+              <p class="o-subtitle-1">&nbsp;&nbsp;constructor() {</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">3 |</p>
+              <p class="o-subtitle-1">&nbsp;&nbsp;&nbsp;&nbsp;this.name = “<span class="o-txt-bold">JOSÉ ALVES</span>”;</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">3 |</p>
+              <p class="o-subtitle-1">&nbsp;&nbsp;&nbsp;&nbsp;this.location = “<span class="o-txt-bold">GOIÁS</span>”;</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">5 |</p>
+              <p class="o-subtitle-1">&nbsp;&nbsp;&nbsp;&nbsp;this.age = new Date().getFullYear() - 2000;</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">4 |</p>
+              <p class="o-subtitle-1">&nbsp;&nbsp;&nbsp;&nbsp;this.stacks = [“<span class="o-txt-bold">FULLSTACK</span>”, “<span class="o-txt-bold">DADOS</span>”, “<span class="o-txt-bold">UX/UI DESIGN</span>”];</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">6 |</p>
+              <p class="o-subtitle-1">&nbsp;&nbsp;}</p>
+            </div>
+            <div class="c-hero__code-row o-flex-container">
+              <p class="o-subtitle-1">7 |</p>
+              <p class="o-subtitle-1">}</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="c-hero__img" src="/src/assets/images/hero-decoration-3.svg" alt="Imagem de destaque">
+  </section>
+  <main>
+    <!-- Sobre -->
+    <section id="about" class="c-about">
+        <div class="o-container">
+          <h4 class="c-title">Sobre Mim</h4>
+            <div class="c-about__content o-flex-container">
+              <div>
+                <h5 class="c-about__text">
+                  Desenvolvedor de Software Web especializado em criar interfaces modernas, performáticas e responsivas. Tenho sólida experiência em Frontend, com foco em usabilidade, acessibilidade e experiência do usuário, além de atuar com Backend que me permitem compreender todo o fluxo da aplicação. Busco transformar ideias em soluções digitais escaláveis e de qualidade, unindo bom design a uma implementação técnica consistente. Estou sempre aprendendo e me atualizando para acompanhar as tendências do mercado.
+                </h5>
+              </div>
+
+              <!-- Imagem sobre mim -->
+              <img src="/src/assets/images/profile-image.svg" alt="Imagem sobre mim">
+            </div>
+        </div>
+      </section>
+
+      <!-- Educação -->
+      <section id="education" class="c-education">
+        <div class="o-container">
+          <h4 class="c-title">Educação</h4>
+          <div class="c-education__content">
+            <!-- Curso Uninter -->
+            <div class="c-education__course">
+              <div class="o-justify-end-gd">
+                <p class="o-txt-body-1">
+                  Engenharia de Software
+                </p>
+                <p class="c-education__institution c-education__institution--right-text o-txt-body-2">
+                  Centro Universitário Internacional (UNINTER)
+                </p>
+                <p class="c-education__period o-txt-caption">
+                  Fev. 2025 - Jan. 2029
+                </p>
+              </div>
+              <div>
+                <span class="c-education__elipse"></span>
+                <span class="c-education__line"></span>
+              </div>
+            </div>
+
+            <!-- Curso DIO -->
+            <div class="c-education__course">
+              <div></div>
+              <div>
+                <span class="c-education__elipse"></span>
+                <span class="c-education__line"></span>
+              </div>
+              <div>
+                <p class="o-txt-body-1">
+                  Formação CSS Web Developer
+                </p>
+                <p class="c-education__institution o-txt-body-2">
+                  Digital Innovation One (DIO)
+                </p>
+                <p class="c-education__period o-txt-caption">
+                  Jan. 2024
+                </p>
+              </div>
+            </div>
+
+            <!-- Curso DIO -->
+            <div class="c-education__course">
+              <div class="o-justify-end-gd">
+                <p class="o-txt-body-1">
+                  Formação HTML Web Developer
+                </p>
+                <p class="c-education__institution c-education__institution--right-text o-txt-body-2">
+                  Digital Innovation One (DIO)
+                </p>
+                <p class="c-education__period o-txt-caption">
+                  Jan. 2024
+                </p>
+              </div>
+              <div>
+                <span class="c-education__elipse"></span>
+                <span class="c-education__line"></span>
+              </div>
+            </div>
+
+            <!-- Curso UEG -->
+            <div class="c-education__course">
+              <div></div>
+              <div>
+                <span class="c-education__elipse"></span>
+                <!-- <span class="c-education__line"></span> -->
+              </div>
+              <div>
+                <p class="o-txt-body-1">
+                  Gestão Pública
+                </p>
+                <p class="c-education__institution o-txt-body-2">
+                  Universidade Estadual de Goiás (UEG)
+                </p>
+                <p class="c-education__period o-txt-caption">
+                  Fev. 2019 - Ago. 2021
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section id="projects" class="c-projects">
+        <div class="o-container">
+          <h4 class="c-title">Projetos</h4>
+          <div class="c-projects__content o-flex-container">
+
+            <!-- Projeto 1 -->
+            <div class="c-card o-flex-container">
+              <div>
+                <div>
+                  <img class="c-card__image" src="/src/assets/images/discord-project.svg" alt="">
+                </div>
+                <div class="c-card__content o-flex-container">
+                  <h5 class="c-card__title">HBO Max</h5>
+                  <p class="o-txt-body-1">
+                    Projeto proposto pela dio.me, com o objetivo de desenvolver as habilidades de responsividade em uma aplicação Web, desafio de projeto do módulo 2. Formação Trilha de CSS.
+                  </p>
+                  <div class="c-card__technologies o-flex-container">
+                    <div class="c-card__technology o-txt-caption">HTML</div>
+                    <div class="c-card__technology o-txt-caption">CSS</div>
+                    <div class="c-card__technology o-txt-caption">JavaScript</div>
+                    <div class="c-card__technology o-txt-caption">HTML</div>
+                    <div class="c-card__technology o-txt-caption">CSS</div>
+                    <div class="c-card__technology o-txt-caption">JavaScript</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="c-card__action o-flex-container">
+                <a class="c-button c-card__button o-txt-button" href="https://josealvesdev.github.io/discord-landingpage-clone/" target="_blank">Visitar Site</a>
+                <a class="c-secondary-button c-card__button o-txt-button" href="https://github.com/JoseAlvesdev/discord-landingpage-clone" target="_blank">Repo</a>
+              </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="c-card o-flex-container">
+              <div>
+                <div>
+                  <img class="c-card__image" src="/src/assets/images/hbo-project.svg" alt="">
+                </div>
+                <div class="c-card__content o-flex-container">
+                  <h5 class="c-card__title">Landing Page Discord</h5>
+                  <p class="o-txt-body-1">
+                    Projeto final da formação de CSS proposto pela dio.me, aproveitando o layout fiz a minha própria aplicação transformando-a em uma SPA.
+                  </p>
+                  <div class="c-card__technologies o-flex-container">
+                    <div class="c-card__technology o-txt-caption">HTML</div>
+                    <div class="c-card__technology o-txt-caption">CSS</div>
+                    <div class="c-card__technology o-txt-caption">JavaScript</div>
+                    <div class="c-card__technology o-txt-caption">HTML</div>
+                    <div class="c-card__technology o-txt-caption">CSS</div>
+                    <div class="c-card__technology o-txt-caption">JavaScript</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="c-card__action o-flex-container">
+                <a class="c-button c-card__button o-txt-button" href="https://josealvesdev.github.io/hbomax/#/" target="_blank">Visitar Site</a>
+                <a class="c-secondary-button c-card__button o-txt-button" href="https://github.com/JoseAlvesdev/hbomax" target="_blank">Repo</a>
+              </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="c-card o-flex-container">
+              <div>
+                <div>
+                  <img class="c-card__image" src="/src/assets/images/hbo-project.svg" alt="">
+                </div>
+                <div class="c-card__content o-flex-container">
+                  <h6 class="c-card__title">HBO Max</h6>
+                  <p class="o-txt-body-1">
+                    Sem tempo
+                  </p>
+                  <div class="c-card__technologies o-flex-container">
+                    <div class="c-card__technology o-txt-caption">HTML</div>
+                    <div class="c-card__technology o-txt-caption">CSS</div>
+                    <div class="c-card__technology o-txt-caption">JavaScript</div>
+                    <div class="c-card__technology o-txt-caption">HTML</div>
+                    <div class="c-card__technology o-txt-caption">CSS</div>
+                    <div class="c-card__technology o-txt-caption">JavaScript</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="c-card__action o-flex-container">
+                <a class="c-button c-card__button o-txt-button" href="#">Visitar Site</a>
+                <a class="c-secondary-button c-card__button o-txt-button" href="#">Repo</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      <!-- CONTATO -->
+      <section id="contact" class="c-contact">
+        <div class="o-container">
+          <h4 class="c-title">Contato</h4>
+          <form class="c-contact__form o-flex-container" action="">
+            <div class="c-contact__row o-flex-container">
+              <label class="c-contact__label o-txt-body-1" for="name">
+                <h6>Nome</h6>
+              </label>
+              <input class="c-contact__input" type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="c-contact__row o-flex-container">
+              <label class="c-contact__label o-txt-body-1" for="email">
+                <h6>Email</h6>
+              </label>
+              <input class="c-contact__input" type="email" id="email" name="email" required>
+            </div>
+
+            <div class="c-contact__row o-flex-container">
+              <label class="c-contact__label o-txt-body-1" for="message">
+                <h6>Mensagem</h6>
+              </label>
+              <textarea class="c-contact__text-area" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button class="c-button o-txt-button" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+  </main>
+
+  <footer class="c-footer">
+    <div class="c-footer__content o-flex-container">
+      <div>
+        <h4>José<br />Alves</h4>
+        <p class="o-txt-body-2">Desenvolvedor de Software</p>
+      </div>
+      <div>
+        <ul class="c-footer__links o-flex-container">
+          <li><a class="c-footer__link o-txt-body-1" href="#header">Home</a></li>
+          <li><a class="c-footer__link o-txt-body-1" href="#about">Sobre</a></li>
+          <li><a class="c-footer__link o-txt-body-1" href="#education">Educação</a></li>
+          <li><a class="c-footer__link o-txt-body-1" href="#projects">Projetos</a></li>
+          <li><a class="c-footer__link o-txt-body-1" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <div class="o-flex-container o-center-vertical">
+        <a href="#">
+          <span class="c-icon">
+            <img class="c-icon__img" src="/src/assets/icons/github-icon.svg" alt="LinkedIn">
+          </span>
+        </a>
+        <a href="#">
+          <span class="c-icon">
+            <img class="c-icon__img" src="/src/assets/icons/linkedin-icon.svg" alt="LinkedIn">
+          </span>
+        </a>
+        <a href="#">
+          <span class="c-icon">
+            <img class="c-icon__img c-icon__img--short-hg" src="/src/assets/icons/email-icon.svg" alt="LinkedIn">
+          </span>
+        </a>
+      </div>
+    </div>
+    <p class="c-footer__copy o-txt-caption">
+      &copy; 2025 José Alves. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

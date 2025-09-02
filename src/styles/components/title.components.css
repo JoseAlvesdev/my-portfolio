@@ -1,0 +1,15 @@
+.c-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.c-title::after {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: .25rem;
+  background-color: var(--secondary-color);
+  margin: 1rem auto 0 auto;
+  border-radius: 6.25rem;
+}
